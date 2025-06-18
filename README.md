@@ -1,6 +1,6 @@
 # 🎨 Arteria
 
-**Arteria** es una plataforma web desarrolladacon el objetivo de visibilizar el trabajo de artistas emergentes. Ofrece una galería digital donde los usuarios pueden explorar, registrar y vender obras de arte categorizadas por técnicas como pintura, escultura, ilustración, entre otras.
+**Arteria** es una plataforma web desarrollada con el objetivo de visibilizar el trabajo de artistas emergentes. Ofrece una galería digital donde los usuarios pueden explorar, registrar y vender obras de arte categorizadas por técnicas como pintura, escultura, ilustración, entre otras.
 
 ---
 
