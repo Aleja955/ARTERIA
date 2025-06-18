@@ -1,0 +1,142 @@
+  /* Navegación de categorías */
+  nav {
+    border-bottom: 1px solid var(--color-claro);
+    background-color: var(--color-claro);
+    padding: var(--espaciado-pequeno) 0;
+    font-family: var(--fuente-parrafo);
+  }
+
+  /* Lista de navegación  horizontal*/
+  nav ul.nav {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  /* Ítems de lista */                                   
+  .nav-item {
+    margin-right: var(--espaciado-mediano);
+  }
+
+  /* Enlaces */
+  .nav-link {
+    color: var(--color-negro-suave) !important;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 0;
+  }
+
+  nav .nav-link:hover {
+    color: var(--color-principal) !important;
+  }
+
+  .nav-link:visited,
+  .nav-link:active {
+    color: var(--color-negro-suave) !important;
+    text-decoration: none;
+  }
+
+.banner-title{
+  margin-top: 2.5rem;
+  text-align: center;
+  color: var(--color-principal-oscuro);
+  font-size: var(--font-size-titulo);
+}
+
+
+  /* Contenedor principal */
+  .contact-form {
+    color: var(--color-claro);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-card {
+    width: 100%;
+    max-width: 30rem;
+    height: 38rem;;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.6);
+    /* Fondo con imagen */
+    background-image: url('../img/Logo-Arteria/Foto-banner3.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+  .form-card {
+    background-image: url('../img/Logo-Arteria/Foto-banner3.png');
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-blend-mode: darken;
+  }
+
+
+  .form-title {
+    text-align:center;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-box {
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+  }
+
+  .form-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  .form-box input,
+  .form-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
+
+  /* Botón centrado y estilizado */
+  .form-boton {
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  #my-form-button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    width: 50%;
+    max-width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  #my-form-button:hover {
+    background-color: var(--color-principal-oscuro);
+  }
+  /* Mensaje "Gracias por contactarnos"*/
+  #my-form-status {
+  text-align: center;       /* Centra el texto horizontalmente */
+  font-size: 1.2rem;        /* Aumenta el tamaño de la fuente */
+  margin-top: 1rem;         /* Espacio superior opcional */
+  font-weight: bold;        /* Opcional: hace que el mensaje resalte más */
+  color: rgb(8, 8, 8);             /* Opcional: cambia el color del mensaje a verde */
+}
+
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    #my-form-button {
+      width: 100%;
+    }
+  }

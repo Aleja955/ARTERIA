@@ -1,0 +1,177 @@
+body {
+    font-family: var(--fuente-parrafo);
+    background-color: var(--color-claro);
+    font-size: var(--font-size-base);
+    background-image: url(../img/Inicio-Registro/Imagen-Registro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  body::before {
+    content: "";
+    background-image: url(../img/Inicio-Registro/Imagen-Registro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  /* Formulario principal */
+  .formulario-inicio-sesion {
+    max-width: 330px;
+    margin: var(--espaciado-grande) auto;
+    background: #fff;
+    padding: var(--espaciado-grande);
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra-suave);
+    position: relative;
+  }
+  
+  /* Botón cerrar (la X) */
+
+  .cerrar-inicio-sesion {
+  
+  position: absolute;
+  top: var(--espaciado-pequeno);
+  right: var(--espaciado-pequeno);
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+  .cerrar-inicio-sesion a {
+    color: var(--color-principal-oscuro);
+    position: absolute;
+    top: var(--espaciado-pequeno);
+    right: var(--espaciado-pequeno);
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  /* Título */
+  h2 {
+    font-family: var(--fuente-titulo);
+    font-size: var(--font-size-titulo);
+    color: var(--color-negro-suave);
+    text-align: center;
+    margin-bottom: var(--espaciado-mediano);
+  }
+  
+  /* Inputs */
+  form input {
+    width: 100%;
+    padding: var(--espaciado-pequeno);
+    margin-bottom: var(--espaciado-mediano);
+    font-size: var(--font-size-parrafo);
+    border: 1px solid var(--color-gris);
+    border-radius: var(--radio-borde);
+    box-sizing: border-box;
+  }
+   /* olvide-contraseña */
+
+   .olvido-contrasena {
+    text-align: right;
+  }
+  .olvido-contrasena a {
+    color: var(--color-principal);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+
+  /*Ojito*/
+    .toggle-password {
+    position: absolute;
+    right: 40px;
+    top: 40.5%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+  /* Ayuda contraseña */
+  .nota-contra-inicio-sesion {
+    font-size: 0.8rem;
+    color: var(--color-negro-suave);
+    margin-bottom: var(--espaciado-mediano);
+  }
+  
+  /* Botón de enviar */
+  .boton-enviar-inicio-sesion {
+    width: 100%;
+    background-color: var(--color-negro-suave);
+    color: white;
+    padding: var(--espaciado-mediano);
+    font-size: var(--font-size-parrafo);
+    font-weight: bold;
+    border: none;
+    border-radius: var(--radio-borde);
+    cursor: pointer;
+  }
+  
+  .boton-enviar-inicio-sesion:hover {
+    background-color: var(--color-principal-oscuro);
+  }
+  
+  /* Texto de abajo */
+  .info-inicio-sesion {
+    font-size: 0.7rem;
+    color: var(--color-negro-suave);
+    line-height: 1.4;
+    margin-top: var(--espaciado-pequeno);
+  }
+  
+  /* Enlace login */
+  .no-tiene-cuenta {
+    font-size: var(--font-size-parrafo);
+    text-align: center;
+    margin-top: var(--espaciado-mediano);
+  }
+  
+  .no-tiene-cuenta a {
+    color: var(--color-principal);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  /*Contenedor alertas*/
+
+  .mensaje-inicio {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+
+  /*Colores alertas*/
+.alert-warning {
+  background-color: var(--color-claro) !important;
+  border-color: var(--color-gris) !important;
+  color: var(--color-negro-suave) !important;
+}
+
+.alert-danger {
+  background-color: #fbeaea !important; 
+  border-color: var(--color-principal) !important;
+  color: var(--color-principal-oscuro) !important;
+}
+
+.alert-success {
+  background-color: #e0f5ec !important; 
+  border-color: #9cd3b2 !important;    
+  color: #155c3d !important;           
+}
